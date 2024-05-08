@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/felipeps/bookings/pkg/config"
-	"github.com/felipeps/bookings/pkg/models"
-	"github.com/felipeps/bookings/pkg/render"
+	"github.com/felipeps/bookings/internal/config"
+	"github.com/felipeps/bookings/internal/models"
+	"github.com/felipeps/bookings/internal/render"
 )
 
 var Repo *Repository

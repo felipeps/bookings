@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/felipeps/bookings/pkg/config"
-	"github.com/felipeps/bookings/pkg/handlers"
-	"github.com/felipeps/bookings/pkg/render"
+	"github.com/felipeps/bookings/internal/config"
+	"github.com/felipeps/bookings/internal/handlers"
+	"github.com/felipeps/bookings/internal/render"
 
 	"github.com/alexedwards/scs/v2"
 )
